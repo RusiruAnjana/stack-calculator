@@ -9,7 +9,7 @@ using namespace std;
 
 class NodeObj {
    public:
-    char op_or_pr = ' ';  // oprators of paranthesis
+    char op_or_pr = ' ';  // oprators of brackets
     float operand;
     bool is_a_digit() {
         if (op_or_pr == ' ') {
